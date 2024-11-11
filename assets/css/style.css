@@ -32,14 +32,18 @@ h1, h2, h3 {
 }
 
 footer {
-    
+
 }
 
 /* Specific styles */
-#hero {
-    background: url(../images/couple-holding-hands-waiting-area-airport-terminal.webp) no-repeat center center / cover;
+header {
+    border-radius: 30px;
     background-color: var(--teal);
     color: var(--white);
+}
+#hero {
+    background: url(../images/hands-holding-each-other-support.webp) no-repeat center center / cover;
+    min-height: 300px;
 }
 
 #thesigns {
@@ -51,4 +55,9 @@ footer {
 }
 
 /* Media queries */
-@
+@media screen and (min-width: 992px) {
+    #hero {
+        background-image: url(../images/couple-holding-hands-waiting-area-airport-terminal.webp);
+    }
+    
+}
