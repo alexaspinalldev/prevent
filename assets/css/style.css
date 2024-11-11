@@ -32,10 +32,6 @@ h1, h2, h3 {
     font-family: var(--secondary-font)
 }
 
-footer {
-
-}
-
 /* Specific styles */
 header {
     border-radius: 30px;
@@ -53,11 +49,28 @@ header {
 #thesigns {
     background-color: var(--red);
     border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 #whattodo {
     background-color: var(--mint);
     border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#thesigns img, #whattodo img {
+    max-height: 10rem;
+    max-width: 10rem;
+    align-self: center;
+    margin-top: auto;
+}
+
+footer {
+    border-radius: 30px 30px 0 0;
+    border: 8px solid var(--teal);
 }
 
 /* Media queries */
