@@ -33,6 +33,12 @@ h1, h2, h3 {
 }
 
 /* Specific styles */
+
+nav {
+    box-shadow: 0 2px 4px #646464;
+    background-color: var(--white);
+}
+
 header {
     border-radius: 30px;
     background-color: var(--teal);
