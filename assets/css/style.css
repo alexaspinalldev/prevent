@@ -51,12 +51,32 @@ header {
     padding-top: auto;
 }
 
+#thesigns, #whattodo {
+    display: flex;
+    flex-direction: column;
+}
+
+#thesigns li, #whattodo li {
+    list-style-type: none;
+    margin-top: .5rem;
+}
+
+#thesigns li::before, #whattodo li::before {
+        content: '';
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        vertical-align: middle;
+        background-image: url(../images/favicon.ico);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-right: 0.5rem;
+}
 
 #thesigns {
     background-color: var(--red);
     border-radius: 30px 0 0 30px;
-    display: flex;
-    flex-direction: column;
+    
     text-align: right;
     list-style-position: inside;
 }
@@ -64,9 +84,6 @@ header {
 #whattodo {
     background-color: var(--mint);
     border-radius: 0 30px 30px 0;
-    display: flex;
-    flex-direction: column;
-    
 }
 
 #thesigns img, #whattodo img {
