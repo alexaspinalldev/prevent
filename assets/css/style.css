@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /*  Reset */
 * {
@@ -11,7 +11,7 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: 'Montserrat', sans-serif;
+    --primary-font: 'Dongle', sans-serif;
     --secondary-font: 'Kanit', Monospace;
     --white: #F7EBE8;
     --black: #272727;
@@ -25,11 +25,19 @@
 body {
     font-family: var(--primary-font);
     color: var(--black);
+}
 
+p, main li, #contact form {
+    font-size: 200%;
+    line-height: 90%;
 }
 
 h1, h2, h3 {
     font-family: var(--secondary-font)
+}
+
+#get-help, #submit-get-help {
+    font-size: inherit;
 }
 
 /* Specific styles */
@@ -37,6 +45,7 @@ h1, h2, h3 {
 nav {
     box-shadow: 0 2px 4px #646464;
     background-color: var(--white);
+    font-size: 150%;
 }
 
 header {
@@ -47,7 +56,7 @@ header {
 #hero {
     background: url(../images/hands-holding-each-other-support.webp) no-repeat center center / cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
-    min-height: 300px;
+    min-height: 400px;
     padding-top: auto;
 }
 
@@ -58,7 +67,7 @@ header {
 
 #thesigns li, #whattodo li {
     list-style-type: none;
-    margin-top: .5rem;
+    margin-top: 1rem;
 }
 
 #thesigns li::before, #whattodo li::before {
