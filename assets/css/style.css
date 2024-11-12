@@ -155,6 +155,23 @@ footer {
     font-size: inherit;
 }
 
+#socials {
+    list-style-type: none;
+    gap: 20px;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#socials a {
+    
+    color: var(--black);
+}
+
+#socials i:hover {
+    color: var(--teal);
+    transition: color 0.1s ease-in-out;
+}
+
 /* Thank you  page*/
 #respond {
     color: var(--teal);

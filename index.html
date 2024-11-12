@@ -91,7 +91,8 @@
     <div class="row">
       <div class="col-10 text-center ms-auto me-auto">
         <h3 class="h2 mb-3">Contact Us</h3>
-        <p id="immediate" class="p-3">If you have immediate concerns about terrorism or someone’s safety, please contact local authorities right
+        <p id="immediate" class="p-3">If you have immediate concerns about terrorism or someone’s safety, please contact
+          local authorities right
           away.</p>
         <p>For other questions, resources, or support related to recognizing and preventing radicalization, please get
           in touch — we’re here to help.</p>
@@ -125,6 +126,27 @@
         <button type="submit" class="btn btn-success" id="submit-get-help">Submit</button>
       </div>
     </form>
+    <div class="mt-4">
+      <div>
+        <ul class="d-flex flex-row justify-content-end" id="socials">
+          <li>Visit our socials:</li>
+          <li><a href="https://facebook.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+          <li><a href="https://x.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Twitter (X) page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+          <li><a href="https://youtube.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Youtube account (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+          <li><a href="https://instagram.com/" target="_blank" rel="noopener"
+              aria-label="Visit our Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="text-end">
+        <i id="copyright">© <span id="year"></span> Website by <a href="https://github.com/alexaspinalldev" target="_blank" rel="nofollow">Alex Aspinall</a></i>
+      </div>
+    </div>
   </div>
 </footer>
 
@@ -158,5 +180,11 @@
             });
         });
   </script>
+
+  <!-- Get current year for footer -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
