@@ -73,10 +73,10 @@ header p, footer p {
 #thesigns li::after {
         content: '';
         display: inline-block;
-        height: 2rem;
-        width: 2rem;
+        height: 3rem;
+        width: 3rem;
         vertical-align: middle;
-        background-image: url(../images/favicon.ico);
+        background-image: url(../images/favicons/favicon-96x96.png);
         background-size: contain;
         background-repeat: no-repeat;
         margin-right: 0.5rem;
@@ -149,7 +149,6 @@ footer {
     background-color: red;
     color: white;
     border-radius: 30px;
-    line-height: 3rem;
 }
 
 #get-help, #submit-get-help {
