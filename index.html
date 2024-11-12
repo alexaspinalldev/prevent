@@ -98,55 +98,57 @@
           in touch — we’re here to help.</p>
       </div>
     </div>
-    <form action="thankyou.html" method="post" class="row g-3 mt-2">
-      <div class="col-md-4">
-        <label for="name" class="form-label">Name:</label>
-        <input type="text" id="name" class="form-control" name="name" required>
-      </div>
-      <div class="col-md-4">
-        <label for="email" class="form-label">Email:</label>
-        <input type="email" id="email" class="form-control" name="email" required>
-      </div>
-      <div class="col-md-4">
-        <label for="role" class="form-label">Your Role:</label>
-        <select id="role" name="role" class="form-select" required>
-          <option value="">Select your role</option>
-          <option value="student">Student</option>
-          <option value="teacher">Teacher</option>
-          <option value="parent">Parent</option>
-          <option value="counselor">Counselor</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-      <div class="col-12">
-        <label for="message" class="form-label">Your Message:</label>
-        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-success" id="submit-get-help">Submit</button>
-      </div>
+    <form action="thankyou.html" method="post">
+      <div class="row g-3 mt-2">
+        <div class="col-md-4">
+          <label for="name" class="form-label">Name:</label>
+          <input type="text" id="name" class="form-control" name="name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" id="email" class="form-control" name="email" required>
+        </div>
+        <div class="col-md-4">
+          <label for="role" class="form-label">Your Role:</label>
+          <select id="role" name="role" class="form-select" required>
+            <option value="">Select your role</option>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="parent">Parent</option>
+            <option value="counselor">Counselor</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="col-12">
+          <label for="message" class="form-label">Your Message:</label>
+          <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+        </div>
+        <div class="col-12 col-md-4">
+          <button type="submit" class="btn btn-success" id="submit-get-help">Submit</button>
+        </div>
+          <div class="col-12 col-md-5 text-end socialinitial">
+            <p class="mb-0 mt-2">Visit our socials:</p>
+          </div>
+          <ul class="d-flex flex-row justify-content-evenly col-12 col-md-3 mb-0" id="socials">
+            <li><a href="https://facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i
+                  class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li><a href="https://x.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter (X) page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li><a href="https://youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Youtube account (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+          </ul>
     </form>
-    <div class="mt-4">
-      <div>
-        <ul class="d-flex flex-row justify-content-end" id="socials">
-          <li>Visit our socials:</li>
-          <li><a href="https://facebook.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
-          </li>
-          <li><a href="https://x.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Twitter (X) page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
-          </li>
-          <li><a href="https://youtube.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Youtube account (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-          <li><a href="https://instagram.com/" target="_blank" rel="noopener"
-              aria-label="Visit our Instagram (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="text-end">
-        <i id="copyright">© <span id="year"></span> Website by <a href="https://github.com/alexaspinalldev" target="_blank" rel="nofollow">Alex Aspinall</a></i>
-      </div>
-    </div>
+  </div>
+  <div class="text-end mt-4">
+    <i id="copyright">© <span id="year"></span> Website by <a href="https://github.com/alexaspinalldev"
+        target="_blank" rel="nofollow">Alex Aspinall</a></i>
   </div>
 </footer>
 

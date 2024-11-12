@@ -155,15 +155,17 @@ footer {
     font-size: inherit;
 }
 
+.socialinitial {
+    font-size: initial;
+}
+
 #socials {
     list-style-type: none;
-    gap: 20px;
-    font-size: 3rem;
-    margin-bottom: 0;
+    font-size: 2.5rem;
+    gap: 10px;
 }
 
 #socials a {
-    
     color: var(--black);
 }
 
