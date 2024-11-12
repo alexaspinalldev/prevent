@@ -85,10 +85,10 @@ header p, footer p {
 #whattodo li::before {
     content: '';
     display: inline-block;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     vertical-align: middle;
-    background-image: url(../images/favicon.ico);
+    background-image: url(../images/favicons/favicon-96x96.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 0.5rem;
@@ -97,10 +97,10 @@ header p, footer p {
 #thesigns li::before {
     content: '';
     display: none;
-    height: 2rem;
-    width: 2rem;
+    height: 3rem;
+    width: 3rem;
     vertical-align: middle;
-    background-image: url(../images/favicon.ico);
+    background-image: url(../images/favicons/favicon-96x96.png);
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 0.5rem;
@@ -160,16 +160,6 @@ footer {
 #respond {
     color: var(--teal);
 }
-
-/* #thank-home {
-    text-decoration: none;
-    color: inherit;
-}
-
-#thank-home:hover {
-    text-decoration: underline;
-
-} */
 
 /* Media queries */
 @media screen and (min-width: 768px) {
