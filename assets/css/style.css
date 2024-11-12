@@ -142,6 +142,7 @@ footer {
     border-left: 8px solid var(--teal);
     border-right: 8px solid var(--teal);
     padding: 30px;
+    background-color: var(--white);
 }
 
 #immediate {
