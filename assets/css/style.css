@@ -32,13 +32,16 @@ p, main li, #contact form {
     line-height: 90%;
 }
 
+#contact select, #contact input, #contact textarea {
+    font-size: 100%;
+    line-height: 80%;
+}
+
 h1, h2, h3 {
     font-family: var(--secondary-font)
 }
 
-#get-help, #submit-get-help {
-    font-size: inherit;
-}
+
 
 /* Specific styles */
 
@@ -54,7 +57,7 @@ header {
     color: var(--white);
 }
 
-header p {
+header p, footer p {
     letter-spacing: 1px;
 }
 
@@ -139,6 +142,9 @@ footer {
     padding: 30px;
 }
 
+#get-help, #submit-get-help {
+    font-size: inherit;
+}
 
 
 /* Media queries */
