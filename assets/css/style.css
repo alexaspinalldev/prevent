@@ -28,7 +28,7 @@ body {
 }
 
 p, main li, #contact form {
-    font-size: 200%;
+    font-size: 190%;
     line-height: 90%;
 }
 
@@ -53,6 +53,11 @@ header {
     background-color: var(--teal);
     color: var(--white);
 }
+
+header p {
+    letter-spacing: 1px;
+}
+
 #hero {
     background: url(../images/hands-holding-each-other-support.webp) no-repeat center center / cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
@@ -70,7 +75,7 @@ header {
     margin-top: 1rem;
 }
 
-#thesigns li::before, #whattodo li::before {
+#thesigns li::after {
         content: '';
         display: inline-block;
         height: 2rem;
@@ -80,6 +85,30 @@ header {
         background-size: contain;
         background-repeat: no-repeat;
         margin-right: 0.5rem;
+}
+
+#whattodo li::before {
+    content: '';
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    vertical-align: middle;
+    background-image: url(../images/favicon.ico);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
+}
+
+#thesigns li::before {
+    content: '';
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    vertical-align: middle;
+    background-image: url(../images/favicon.ico);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 0.5rem;
 }
 
 #thesigns {
@@ -117,6 +146,14 @@ footer {
     #thesigns {
         text-align: left;
         list-style-position: outside;
+    }
+
+    #thesigns li::after {
+        display: none;
+}
+
+    #thesigns li::before {
+    display: inline-block;
     }
 }
 
