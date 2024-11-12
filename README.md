@@ -1,4 +1,4 @@
-# Individual Formative Assignment - PREVENT
+# Individual Formative Assignment - "Prevent"
 A site of information on the Prevent programme, using HTML, CSS, Bootstrap library and Javascript.
 
 #### Live site link:
@@ -14,9 +14,8 @@ https://alexaspinalldev.github.io/prevent/
 #### Tablet
 <img src="assets/ReadMe/tablet-top.png" width="49%"> <img src="assets/ReadMe/tablet-bottom.png" width="49%">
 
-
-#### Large laptop
-#### XL screen
+#### Large laptop (>1200px)
+<img src="assets/ReadMe/laptop.png" width="100%">
 
 ## Contents
 - UX
