@@ -185,7 +185,7 @@ footer {
 /* Thank you  page*/
 
 #thankyou-container {
-    background-color: white;
+    background-color: var(--white);
     border-radius: 30px;
 }
 
