@@ -225,13 +225,18 @@ Testing showed that all breakpoints and media queries function as expected, save
 I found that the contact form was erroring due to it's method="post" attribute so I removed that for the sake of demonstration.
 
 #### HTML validation
-HTML validation via official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) returned 13 issues, of which 7 were non-critical or could be ignored. After resolving these, it passed with no further issues.
+HTML validation via official [W3C validator](https://validator.w3.org/) returned 13 issues, of which 7 were non-critical or could be ignored. After resolving these, it passed with no further issues.
 
 The "Thank you" page passed with zero issues.
 
 #### CSS validation
+CSS validation via official [W3C validator](https://jigsaw.w3.org/css-validator/) returned zero issues.
+
+#### Accessibility testing
+Accessibility testing via [Wave](wave.webaim.org) returned 8 contrast warnings with my headers, which I decided to ignore, and one suggestion to correct a \<p> to a heading. This done, there were no further issues.
 
 #### Lighthouse testing
+
 
 #### Unfixed bugs
 I found in manual testing that, on mobile the ! bulletpoints sit on the second line, of their content when wrapped. This is due to them being placed as an ::after psuedo-class.
