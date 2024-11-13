@@ -189,6 +189,8 @@ Smaller screens also feature a header image better suited to the narrower form f
 ### Half-pill design
 By adding rounded corners to the header element, I was able to create this half-pill design that appears to hang down from the navbar. I would have also liked to be able to echo this with the main-content div, having it appear to nest underneath the header, but did not have enough time. This design language is echoed on smaller screens where the \<section>s appear to attach limpet-like to the sides of the frame, and on medium screens fuse together.
 
+<img src="assets/ReadMe/half-pill-design.png" width="30%">
+
 ### Contact form
 The simple contact form includes a dropdown for the user to input what role they are enquiring from. This was informed by the concept that my site would primarily be used by caregivers, parents and people in roles of responsibility.
 
