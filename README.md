@@ -47,8 +47,101 @@ In planning I started with establishing my user goals and personas:
 **User persona:** Members of the public looking for information, or wanting to report something they're concerned about.
 
 ### User stories
-Below are the User Stories I used during the project. Some are general initial requirements and some are requirements that developed at the project went on.
+Below are the User Stories I completed during the project. Some are general initial requirements and some are requirements that developed at the project went on.
 
+<table>
+  <thead>
+    <tr>
+      <th>Number</th>
+      <th>Title</th>
+      <th>URL</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>The website must use HTML/CSS/Bootstrap</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/1">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>As a visitor I should see clear content on the signs and symptoms of radicalisation</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/2">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>As a visitor I should see clear content on the steps to take when you suspect someone is becoming radicalised</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/3">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>As a visitor I should see an obvious CTA to report suspicions</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/4">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>As a visitor I should see a general section about the meaning of Prevent</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/5">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>As a visitor I should be able to use the site on all screen sizes</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/6">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Create a landing page for successful form submissions</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/8">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Create (Improve) Favicons</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/9">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>The website should include links to Prevent social media accounts</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/11">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Flesh out out content with secondary paragraph</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/12">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Fix US spelling in content</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/13">Link</a></td>
+      <td>Done</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>The HTML and CSS must be free of issues, and the site must perform well in Lighthouse</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/7">Link</a></td>
+      <td>In Progress</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Resolve issue with page anchors</td>
+      <td><a href="https://github.com/alexaspinalldev/prevent/issues/10">Link</a></td>
+      <td>Todo</td>
+    </tr>
+  </tbody>
+</table>
+
+
+**Project board:** https://github.com/users/alexaspinalldev/projects/4
 
 ### Wireframes
 I used Google Sheets as my wireframing tool as I'm most comfortable with that platform and I coudl easily set up Bootstraps 12-column width arrangement.
@@ -62,7 +155,7 @@ My primary font for all body text is Dongle - this was my second choice after my
 My secondary font for all headings is Kanit chosen for it's nice medium formality.
 
 ### Colours
-I defien the following variables at the beginning of the project:
+I defined the following variables at the beginning of the project:
     --white: #F7EBE8;
     --black: #272727;
     --teal: #22AAA1;
@@ -141,6 +234,8 @@ I found that the contact form was erroring due to it's method="post" attribute s
 I found in manual testing that, on mobile the ! bulletpoints sit on the second line, of their content when wrapped. This is due to them being placed as an ::after psuedo-class.
 
 The \<select> element in the Contact form is a different height to the other fields - this is due to how I was required to scaled up my chosen font significantly.
+
+The page anchors do not scroll to the correct place on the page - I believe this relates to my sticky navbar.
 
 
 ## Credits
