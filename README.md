@@ -236,7 +236,15 @@ CSS validation via official [W3C validator](https://jigsaw.w3.org/css-validator/
 Accessibility testing via [Wave](wave.webaim.org) returned 8 contrast warnings with my headers, which I decided to ignore, and one suggestion to correct a \<p> to a heading. This done, there were no further issues.
 
 #### Lighthouse testing
+Lighthouse testing on mobile in an incognito tab returned the following scores:
+<img src="assets/ReadMe/lighthouse-mobile.png" width="300px">
 
+The poor performance of the site is something I had noticed and can be attributed to large image files. The two header images are already compressed but I expect the one used on screens <768px wide could be reduced further.
+
+Repeating the test for desktop form factor, the following score were shown:
+<img src="assets/ReadMe/lighthouse-laptop.png" width="300px">
+
+This is again attributable to large image loading and also the triple-responsive layouts available.
 
 #### Unfixed bugs
 I found in manual testing that, on mobile the ! bulletpoints sit on the second line, of their content when wrapped. This is due to them being placed as an ::after psuedo-class.
