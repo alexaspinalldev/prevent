@@ -25,6 +25,7 @@
 body {
     font-family: var(--primary-font);
     color: var(--black);
+    background-color: #1A7770;
 }
 
 
@@ -57,7 +58,14 @@ header p, footer p {
     background: url(../images/hands-holding-each-other-support.webp) no-repeat center center / cover;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
     min-height: 400px;
-    padding-top: auto;
+}
+
+#maincontent {
+    border-radius: 30px;
+    background-color: lightgray;
+    color: var(--black);
+    text-align: center;
+
 }
 
 #thesigns, #whattodo {
@@ -181,6 +189,10 @@ footer {
 
 /* Media queries */
 @media screen and (min-width: 768px) {
+    #maincontent {
+        text-align: left;
+    }
+
     #thesigns {
         text-align: left;
         list-style-position: outside;
