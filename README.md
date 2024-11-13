@@ -225,6 +225,9 @@ Testing showed that all breakpoints and media queries function as expected, save
 I found that the contact form was erroring due to it's method="post" attribute so I removed that for the sake of demonstration.
 
 #### HTML validation
+HTML validation via official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) returned 13 issues, of which 7 were non-critical or could be ignored. After resolving these,
+
+The "Thank you" page passed with zero issues.
 
 #### CSS validation
 
