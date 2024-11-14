@@ -3,6 +3,8 @@
 #### Live site link:
 https://alexaspinalldev.github.io/prevent/
 
+NOTE: This project is being continued in https://github.com/alexaspinalldev/preventredux
+
 ## Introduction
 "Prevent - What you need to know" is website created in HTML5, CSS3, Bootstrap 5.3 and Javascript designed to outline the basic facts of the UK's Prevent program. Prevent is a an initiative intended to spot and support people who may be vulnerable to radicalisation. Its goal is to recognise early signs of concern, raise awareness, and connect people with the right help and guidance before issues escalate.
 
